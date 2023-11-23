@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character encoding to UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- Ensure compatibility with Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Responsive design meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the webpage -->
+    <title> Todo List App </title>
+
+    <!-- Link to website icon -->
+    <link rel="website icon" type="png" href="Images/images.jpg" />
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="./Design.css" />
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+
+        <!-- Main heading for the task list -->
+        <h1> Task List 2023 </h1>
+
+        <!-- Form for adding new tasks -->
+        <form id="new-task-form">
+
+            <!-- Input field for entering new tasks -->
+            <input type="text" name="new-task-input" id="new-task-input" placeholder="What do you have planned ?" />
+
+            <!-- Submit button to add new tasks -->
+            <input type="submit" id="new-task-submit" value="Add Task" />
+
+        </form>
+        
+    </header>
+    
+    <!-- Main content section -->
+    <main>
+        
+         <!-- Section for displaying the task list -->
+        <section class="task-list">
+            
+            <!-- Subheading for the tasks section -->
+            <h2> Tasks </h2>
+             
+            <!-- Container for displaying tasks -->
+            <div id="tasks"></div>
+            
+        </section>
+
+    </main>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="./Logic.js"></script>
+
+</body>
+</html>
